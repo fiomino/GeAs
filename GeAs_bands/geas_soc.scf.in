@@ -8,12 +8,13 @@
  tprnfor = .true.
  tstress = .true.
  verbosity = 'high'
- restart_mode = 'from_scratch'
+ restart_mode = 'restart'
+ max_seconds = 84600
 /
 &SYSTEM
  degauss = 1.4699723600d-02
- ecutrho = 2.4000000000d+02
- ecutwfc = 3.0000000000d+01
+ ecutrho = 6.4000000000d+02
+ ecutwfc = 8.0000000000d+01
  ibrav = 0
  nat = 12
  nosym = .false.
